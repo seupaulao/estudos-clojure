@@ -34,4 +34,4 @@
   (def vpanel 
         (seesaw/vertical-panel :items [label hpanel]))      
       
-        (display vpanel))
+  (display vpanel))

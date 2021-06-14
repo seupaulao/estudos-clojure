@@ -33,4 +33,6 @@
         (.add fahrenheit-label)
         (.setSize 300 80) (.setVisible true))))
   
+;testar fazer funcionalidades com o see-saw - feito veja ex4
+
 (celsius)        
