@@ -28,6 +28,8 @@
 (defn mostrarSystemProperties []
    (println (.. System getProperties (get "java.version"))))
 
+(defn main[]
+
 (println "*-*-*-*-*-*-* DEMONSTRACAO *-*-*--*-*-*-*-*\n\n")
 (println "++++++++++++++++++")
 (metodoJava)
@@ -44,3 +46,6 @@
 (println "-------------")
 (mostrarSystemProperties)
 (println "-------------")
+)
+
+(main)
